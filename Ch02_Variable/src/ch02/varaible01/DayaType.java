@@ -9,7 +9,7 @@ public class DayaType {
 		String name = "홍길동";	//문자열
 		boolean isRun = true;	//true/false
 		String str = "a";		//문자열
-		String name1 = "admin";	//문자열
+		
 		
 		System.out.println(num);
 		num = 999;
