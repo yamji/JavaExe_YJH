@@ -15,6 +15,9 @@ public class SwitchEx {
 		
 		Scanner sc = new Scanner(System.in);
 		int sel = sc.nextInt();
+//		sel의 값과 같은 case로 이동하여 실행하고 
+//		break를 만나면 switch문이 종료된다.
+		
 		switch (sel) {
 		case 1: 
 			System.out.println("짜장면이 나왔습니다");
