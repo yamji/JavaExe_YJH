@@ -1,4 +1,4 @@
-package ch02.logicOperator09;
+package ch02.logicOperator08;
 
 import java.util.Scanner;
 
