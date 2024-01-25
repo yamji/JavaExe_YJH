@@ -21,6 +21,13 @@ public class TransDataType {
 		
 		int nAng = (int)avg;
 		System.out.println("평균은 " + nAng + "입니다.");
+		
+		char ch = 'A';
+		System.out.println(ch);
+		System.out.println((int)ch);
+		System.out.println((int)'a');
+		System.out.println((char)66);
+		System.out.println((char)98);
 	}
 
 }
