@@ -18,8 +18,11 @@ public class ArrayEx {
 		int[] kor = {98, 99, 89};
 		System.out.println("배열의 크기: " + kor.length);
 		
-		int[] marh = {100, 80, 78, 68, 90};;
+		int[] marh = {100, 80, 78, 68, 90};
 		System.out.println("배열의 크기: " + marh.length);
+		
+		int[] eng = {100, 80, 78, 68};
+		System.out.println("배열의 크기: " + eng.length);
 		
 	}
 	
