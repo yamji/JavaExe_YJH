@@ -1,4 +1,4 @@
-package ch04.sec03;
+package ch03.controller07.ch04.sec03;
 
 public class SwitchExpressionsExample {
 

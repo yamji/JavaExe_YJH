@@ -1,6 +1,6 @@
 package ch05.array03;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class ArrayEx {
 	public static void main(String[] args) {
@@ -23,6 +23,12 @@ public class ArrayEx {
 		
 		int[] eng = {100, 80, 78, 68};
 		System.out.println("배열의 크기: " + eng.length);
+		
+		System.out.println(Arrays.toString(kor));
+		System.out.println(Arrays.toString(marh));
+		System.out.println(Arrays.toString(eng));
+		System.out.println();
+		
 		
 	}
 	
