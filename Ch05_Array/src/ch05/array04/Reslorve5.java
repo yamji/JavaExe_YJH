@@ -8,13 +8,24 @@ import java.util.Scanner;
 
 public class Reslorve5 {
 	public static void main(String[] args) {
-		int[] arr = new int [10];
+		int[] numArr = new int [10];
+		int total = 0;
+		
 		Scanner sc = new Scanner(System.in);
 		
-		for(int i=0; i<arr.length; i++) {
-			arr = sc.nextInt();
+		for(int i=0; i<numArr.length; i++) {
+			int num = sc.nextInt();
+			total += num;
+			numArr[i] = num;
 		}
-		arr
+		
+		for(int num : numArr)
+			System.out.print(num + " ");
+		System.out.println();
+		System.out.println("총합 : " + total);
+		
+		sc.close();
+		
 	}
 	
 
