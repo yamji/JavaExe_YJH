@@ -2,6 +2,9 @@ package ch08.class09;
 
 import java.util.Scanner;
 
+import ch08.class08.FruitBuyer;
+import ch08.class08.FruitSeller;
+
 
 /*
 1.FruitMain클래스에		
@@ -100,8 +103,17 @@ public static int getSelectMenu(Scanner sc) {
 
 // 1번 문제에 대한 풀이
 public static void answer1(Scanner sc) {
-
-}
+			FruitSeller seller = new FruitSeller(20);
+			FruitBuyer buyer = new FruitBuyer(10000);
+			
+			seller.showSaleResult();
+			buyer.showBuyResult();
+			
+			seller.saleApple(2000);
+			
+			seller.showSaleResult();
+			buyer.showBuyResult();
+		}
 
 // 2번 문제에 대한 풀이
 public static void answer2(Scanner sc) {
